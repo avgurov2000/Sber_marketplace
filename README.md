@@ -9,7 +9,7 @@
 Репозиторий содержит следующие директории:
   - [model](https://github.com/avgurov2000/Sber_marketplace/tree/main/model): Содержит в себе реализацию разработанного модуля.
   - [noise_layers](https://github.com/avgurov2000/Sber_marketplace/tree/main/noise_layers): Содержит в себе реализацию модулей аугментации.
-  - [report](https://github.com/avgurov2000/Sber_marketplace/tree/main/report): Содержит результаты экспериментов.
+  - [report](https://github.com/avgurov2000/Sber_marketplace/tree/main/report): Содержит результаты экспериментов (визуализацию, таблицы, полный [отчет](https://github.com/avgurov2000/Sber_marketplace/blob/main/report/%D0%9E%D1%82%D1%87%D0%B5%D1%82.pdf)).
 
 
 
