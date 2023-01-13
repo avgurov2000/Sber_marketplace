@@ -66,7 +66,7 @@
 <img src="https://github.com/avgurov2000/Sber_marketplace/blob/main/report/comp_table.png" width="800"/>
 </p>
 
-
+**Для ознакомления со всеми результатами экспериментов читай полный [отчет](https://github.com/avgurov2000/Sber_marketplace/blob/main/report/%D0%9E%D1%82%D1%87%D0%B5%D1%82.pdf)**
 ## Ссылки
 
 <a id="1">[1]</a> 
