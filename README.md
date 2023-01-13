@@ -1,5 +1,6 @@
-<h2 align="center">Защита визуального контента маркетплейсов путем стеганографии в цифровых изображениях</h2>
+<h2 align="center">Научно-исследовательский проект "Защита визуального контента маркетплейсов путем стеганографии в цифровых изображениях"</h2>
 <h5 align="center">НЦКР ITMO, Санкт-Петербург, Россия</h5>
+<h5 align="center">Совеместно с Sber AI, Санкт-Петербург, Россия</h5>
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
