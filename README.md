@@ -37,6 +37,11 @@
 <img src="https://github.com/avgurov2000/Sber_marketplace/blob/main/report/encoder.png" width="720"/>
 </p>
 
+Другой отличительной чертой стало добавление дополнительной составляющей целевой функции (на схеме метода обозначена как L_{ssl}), которая отвечает за то, чтобы извлеченное сообщение с аугментированного изображения походила на сообщение, извлеченное с оригинального защищенного изображения. Делается это путем дистилляции знаний, используемой часто в подходах самообучения [[10]](#10).
+
+Использование дискриминатора как соревновательной составляющей также обсуждалась в работах ранее [[1]](#1) и хорошо себя зарекомендовало, однако, его устоявшаяся архитектура, широко использовавшаяся в таких моделях, была склонна к коллапсу, то есть быстрому обнулению ошибки дискриминатора при обучении. Решением этому послужило избавление от смещения в блоках дискриминатора, как это часто делается на практике [[11]](#11). 
+
+
 ## Экспериментальное исследование
 
 Было проведено экспериментальное исследование разработанного подхода, а также сравнение его с существующими решениями. Исследование проводилось на следующих наборах данных: «DIV2k» и наборе данных товаров маркетплейсов. 
@@ -82,3 +87,9 @@ Agarap A.F. Deep Learning using Rectified Linear Units (ReLU). 2018
 
 <a id="9">[9]</a> 
 He K. et al. Deep Residual Learning for Image Recognition. 2016. P. 770–778.
+
+<a id="10">[10]</a> 
+Caron M. et al. Emerging Properties in Self-Supervised Vision Transformers // Proceedings of the IEEE International Conference on Computer Vision. Institute of Electrical and Electronics Engineers Inc., 2021. P. 9630–9640.
+
+<a id="11">[11]</a>
+Radford A., Metz L., Chintala S. Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks // 4th International Conference on Learning Representations, ICLR 2016 - Conference Track Proceedings. International Conference on Learning Representations, ICLR, 2015.
