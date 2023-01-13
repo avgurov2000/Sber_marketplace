@@ -31,6 +31,8 @@
 <img src="https://github.com/avgurov2000/Sber_marketplace/blob/main/report/ProposedModel.png" width="800"/>
 </p>
 
+Основные изменения коснулись строения энкодера. Хотя авторы, использующие данную архитектуру [[1](#1), [2](#2), [3](#3), [6](#6)], и утверждают, что использование последовательных блоков, состоящих из блока свертки, пакетной нормализации [[7]](#7) и функции активации [[8]](#8), является зарекомендовавшим себя решением, все же это не уберегает их модели от деградации точности по причине потенциальной высокой симметрии пространства параметров модели. Поэтому нами были добавлены остаточные связи [[9]](#9) на каждом счетном блоке, а также доступ к первоначальному цифровому изображению и встраиваемому сообщению на каждом нечетном. Архитектура такого энкодера из семи блоков представлена на рисунке ниже. 
+
 ## Экспериментальное исследование
 
 Было проведено экспериментальное исследование разработанного подхода, а также сравнение его с существующими решениями. Исследование проводилось на следующих наборах данных: «DIV2k» и наборе данных товаров маркетплейсов. 
@@ -64,3 +66,15 @@ Agustsson E., Timofte R. NTIRE 2017 Challenge on Single Image Super-Resolution: 
 
 <a id="5">[5]</a> 
 Fashion Product Images Dataset | Kaggle [Electronic resource]. URL: https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset (accessed: 14.12.2022).
+
+<a id="6">[6]</a> 
+Luo X. et al. Distortion Agnostic Deep Watermarking // Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition. IEEE Computer Society, 2020. P. 13545–13554.
+
+<a id="7">[7]</a> 
+Ioffe S., Szegedy C. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift. PMLR, 2015. P. 448–456.
+
+<a id="8">[8]</a> 
+Agarap A.F. Deep Learning using Rectified Linear Units (ReLU). 2018
+
+<a id="9">[9]</a> 
+He K. et al. Deep Residual Learning for Image Recognition. 2016. P. 770–778.
