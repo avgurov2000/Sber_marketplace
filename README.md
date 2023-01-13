@@ -25,7 +25,7 @@
 
 ## Разработанный метод
 
-В качестве основы для разрабатываемой модели выла выбрана архитектура сверточного энкодера-декодера с состязательным подходом в силу того, что модели, использующие такую архитектуру, на сегодняшний день являются передовыми в данной области.  Несмотря на результативность таких моделей, нами были введены некоторые изменения в архитектуру самой сети, также были добавлены дополнительные компоненты. Схема разработанного модуля представлена на рисунке ниже. 
+В качестве основы для разрабатываемой модели выла выбрана архитектура сверточного энкодера-декодера с состязательным подходом в силу того, что модели, использующие такую архитектуру, на сегодняшний день являются передовыми в данной области [[1]](#1), [[2]](#2), [[3]](#3).  Несмотря на результативность таких моделей, нами были введены некоторые изменения в архитектуру самой сети, также были добавлены дополнительные компоненты. Схема разработанного модуля представлена на рисунке ниже. 
 
 <p align="center">
 <img src="https://github.com/avgurov2000/Sber_marketplace/blob/main/report/ProposedModel.png" width="800"/>
@@ -46,3 +46,15 @@
 <p align="center">
 <img src="https://github.com/avgurov2000/Sber_marketplace/blob/main/report/comp_table.png" width="800"/>
 </p>
+
+
+## Ссылки
+
+<a id="1">[1]</a> 
+Zhu J. et al. HiDDeN: Hiding Data With Deep Networks. 2018.
+
+<a id="2">[2]</a>
+Zhang H. et al. Robust Data Hiding Using Inverse Gradient Attention. 2020.
+
+<a id="3">[3]</a>
+Hamamoto I., Kawamura M. Neural Watermarking Method Including an Attack Simulator against Rotation and Compression Attacks // IEICE Trans Inf Syst. The Institute of Electronics, Information and Communication Engineers, 2020. Vol. E103.D, № 1. P. 33–41.
